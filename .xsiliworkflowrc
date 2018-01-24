@@ -1,0 +1,27 @@
+{
+    "env": {
+        "test": {
+            "ftp": {
+                "host": "39.108.164.146",
+                "port": 22,
+                "user":"www",
+                "pass":"ww4*384K3k3)%",
+                "remotePath": "/home/www/dev.xsili.net/project/test/infinitus-video-admin"
+            },
+            "domain":""
+        },
+        "dist": {
+            "ftp":{
+                 "host": "139.199.164.50",
+                 "port": 22,
+                 "user":"www",
+                 "pass":"1wiw@#df$Gw8^",
+                 "remotePath": "/home/appadmin/deploy/www/admin"
+            },
+            "domain": ""
+        }
+    },
+    "projectName": "infinitus-video-admin",
+    "entryFile": "html/index.html",
+    "port": 3002
+}
