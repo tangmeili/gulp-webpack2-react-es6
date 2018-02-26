@@ -35,13 +35,6 @@ var webpackConfig= {
   module: {
     rules: [
       {
-        test: /\.html$/,
-        exclude: /node_modules/,
-        use: [
-          'html-loader'
-        ],
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: [
