@@ -18,7 +18,7 @@ var sass = require('gulp-sass');
 var less = require('gulp-less');
 var imagemin = require('gulp-imagemin')
 var pngquant = require('imagemin-pngquant');
-var config = require('rc')('xsiliworkflow')
+var config = require('rc')('workflow')
 var GulpSSH = require('gulp-ssh')
 
 var outputDir = "build";

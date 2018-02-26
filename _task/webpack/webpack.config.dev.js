@@ -5,16 +5,9 @@ var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 var webpack = require('webpack');
 var LiveReloadPlugin = require('webpack-livereload-plugin');
 var path = require('path');
-var config = require('rc')('xsiliworkflow');
+var config = require('rc')('workflow');
 var webpackEntry = require('./webpackEntry')
 var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-
-// const antdIconUrl =  path.join(__dirname, '../../src/assets/iconfont/iconfont')
-// const antdIconUrl = `http://localhost:${config.port}/shixun-portal/src/assets/iconfont/iconfont`
-
-// const antdTheme = {
-//   '@icon-url': `"${antdIconUrl}"`
-// }
 
 var outputDir = "build";
 

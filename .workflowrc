@@ -1,0 +1,25 @@
+{
+    "env": {
+        "test": {
+            "ftp": {
+                "host": "",
+                "port": 22,
+                "user":"",
+                "pass":"",
+                "remotePath": ""
+            }
+        },
+        "dist": {
+            "ftp":{
+                 "host": "",
+                 "port": 22,
+                 "user":"",
+                 "pass":"",
+                 "remotePath": ""
+            }
+        }
+    },
+    "projectName": "gulp-webpack2-react-es6",
+    "entryFile": "html/index.html",
+    "port": 3002
+}

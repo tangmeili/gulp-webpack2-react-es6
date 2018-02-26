@@ -9,7 +9,7 @@ var util = require('gulp-util');
 var open = require('gulp-open')
 var changed = require('gulp-changed');
 var webpackConfigDev = require('../webpack/webpack.config.dev');
-var config = require('rc')('xsiliworkflow');
+var config = require('rc')('workflow');
 
 var outputDir = "build";
 
