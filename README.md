@@ -13,7 +13,7 @@
 > 7. 自动给 css 添加浏览器内核前缀，单独控制css文件的版本号，css modules的局部样式与全局样式共存。
 
 ## Installation
-`$ npm install  // 如果出现失败，可以通过淘宝镜像` 
+	$ npm install  // 如果出现失败，可以通过淘宝镜像
  
 如果用的webstorm工具进行开发的话，点击左下角的gulp会看到几个gulp任务流，如下图。  
 
