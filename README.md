@@ -47,7 +47,7 @@ mock_sftp任务，考虑到有时候因为项目进度，在本地以及测试�
 		<script src="http://localhost:3002/index.js"></script> //跟每个html文件名对应的js,即入口文件
 6. js文件夹存放每个html文件的入口文件。 `注意：js文件夹下面的目录结构要跟html文件夹下面的一直，html文件名要跟js文件名保持一致！`
 ##### babelrc
-babel-loader插件的配置文件。支持es6、es7装饰器、jsx语法
+babel-loader插件的配置文件。支持es6、es7装饰器、jsx语法  
 ![](./src/images/babel.jpg)
 ##### .workflowrc
 不同服务器的配置文件，包括（测试test、生产dist）  
